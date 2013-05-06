@@ -1,0 +1,156 @@
+/* queens_page.css */
+#queensfooter{border-top:1px dotted #d1d3d5; }
+#colophon,#links{margin-top:13px;padding-top:.538em;border-top:1px solid #d1d3d5;}
+#summary{float:left;width:22.308em;margin-top:0px;padding-left:.769em;}
+#summary h2{font-size:153.9%;line-height:1;margin:.8em 0;}
+#summary p{color:#616365;font-size:92.3%;line-height:1.33;}
+
+
+#features{float:right;margin-top:0px;width:660px;height:135px;position:relative;overflow:hidden;}
+#features img{ height: 135px;}
+
+
+#noticeBoard{clear:left;height:45px;background-color:#c81632; }
+#noticeBoard #title{float:left; width:80px;}
+#noticeBoard #title h2{margin-bottom:0;padding:5px 0 0 10px;font-size:123.1%;}
+
+#noticeBoard #title h2 a{color:#fff;}
+#noticeBoard #title h2 a:hover{color:#fff; text-decoration: blink;}
+
+#noticeBoard #notices{float:left; width:790px; max-height:45px; padding-right:5px; margin-top: -1px;}
+#noticeBoard #notices a:hover{text-decoration: none;}
+
+#noticeBoard #notices ul{float:left;width:auto; max-height:45px; margin-bottom:0;padding:0 0 0 0;overflow:hidden;}
+
+#noticeBoard #notices ul#events li{ float:left; padding:0 0 0 0;  list-style:none; /*url(../image/sml_arro.png) inside disc;*/  color:#fff; font-weight: bold;}
+#noticeBoard #notices ul#events li a{color:#fff;}
+#noticeBoard #notices ul#events li a:hover{color:#fff; text-decoration:none; }
+#notice  ul li {border-bottom:#666666 dashed 1px; padding: 15px 0 3px 0; list-style:square; }
+/*
+#Resources,#Information{margin-right:.769em;padding:0 .385em .385em;display:block;float:left;height:11em;width:10.769em;overflow:hidden;background-color:#dde7ee;}
+#Resources h4,#Information h4{margin:0;}
+#Resources ul,#Information ul{margin-bottom:.615em;}
+#Resources li,#Information li{list-style:none;margin-left:0;margin-bottom:0;}
+#Resources li a,#Information li a{margin:0;font-size:92.3%;}
+#Resources li.last a,#Information li.last a{margin:0;}
+#Resources li a:hover,#Information li a:hover{text-decoration:underline;}
+*/
+
+
+#spotlight{display:block;float:left;margin-right:.769em;width:23.846em;}
+#spotlight img{float:left;margin:0;border:none;}
+#spotlight p{padding:1.846em .385em 0 .923em;float:right;width:17.923em;}
+#spotlight p span#spotlightheading{font-size:107.7%;line-height:1.143;font-weight:bold;}
+#spotlight p span#spotlightsubheading{display:block;font-size:92.3%;line-height:1.333;margin:0 0 1.333em 0; }
+
+
+
+
+#gallery{margin:0;display:block;float:left;width:304px;height:144px;border:2px solid #d1d3d5;overflow:hidden;}
+#gallery ul li{margin:0;list-style-type:none;}
+#gallery ul a,#gallery ul p,#gallery ul img{display:block;width:306px;height:144px;margin-bottom:0;padding:1px;}
+#gallery ul p{margin:0;text-indent:-9999px;}
+#gallery ul a:hover{background:transparent url(../image/campusim.png) no-repeat 0 0;}
+
+
+
+#newsLetter{margin:0;display:block;float:left;width:105px;height:144px;border:2px solid #d1d3d5;overflow:hidden;}
+#newsLetter ul li{margin:0;list-style-type:none;}
+#newsLetter ul a,#newsLetter ul p,#newsLetter ul img{display:block;width:105px;height:144px;margin-bottom:0;padding:1px;}
+#newsLetter ul p{margin:0;text-indent:-9999px;}
+#newsLetter ul a:hover{background:transparent url(../image/campusim.png) no-repeat 0 0;}
+
+
+.school {font-size:15px;}
+.school .dept{ line-height:20px; padding-bottom:5px; }
+.school .title{  letter-spacing:0.08em; font-weight:bold;}
+.school .dean .title{  letter-spacing:0.08em; font-weight:normal; }
+.school .programs ol li{  letter-spacing:0.08em; color:#000000;}
+.school .programs ol li a{  letter-spacing:0.08em; color:#000000; font-size:12px; font-weight:normal;}
+.school a {  letter-spacing:0.08em; color:#000000;}
+.school a:hover {  letter-spacing:0.08em; color:#0000ee;}
+
+
+.syllabus {font-size:15px;}
+.syllabus .title a{  letter-spacing:0.08em; font-weight:bold;}
+
+.syllabus .programs ol li{  letter-spacing:0.08em; color:#000000;}
+.syllabus .programs ol li a{  letter-spacing:0.08em; color:#000000;  font-weight:normal;}
+.syllabus a {  letter-spacing:0.08em; color:#000000;}
+.syllabus a:hover {  letter-spacing:0.08em; color:#0000ee;}
+
+.inline-nav,.inline-nav li{font-size:96.15%;line-height:1.28;}
+
+.inline-nav{clear:left;float:left;margin-left:.4em;padding:0 .8em 0 .4em;width:16.96em;}
+.inline-nav dl{margin:0;}
+.inline-nav dt{margin:8px 0 0 0;padding:0 0 0 12px;background:url(../image/sml_arro.png) no-repeat 1px 5px;}
+.inline-nav dt.first{margin:0;}
+.inline-nav ul{margin-bottom:0;padding:0 0 .615em 12px;overflow:auto;}
+.inline-nav ul li{display:inline;float:left;margin:0;padding-right:.4em;}
+
+
+
+
+.summaryfeed {padding:0px 0px 0px 20px; text-align:right;}
+.summaryfeed h3,.detailfeed h3{margin:0 0 .444em;}
+.summaryfeed h3 a,.detailfeed h3 a{margin:0;color:#000;}
+.summaryfeed ol{border:1px solid #d1d3d5;margin:0;padding:.385em .388em .077em;}
+.summaryfeed ol li{height:auto;margin:0;padding:.615em .385em 5px;overflow:hidden;list-style:none;color:#616365;border-bottom:1px dotted #d1d3d5;}
+.summaryfeed ol li.selected{ }
+.summaryfeed ol li.last{border-bottom:none;padding-bottom:5px;}
+.summaryfeed ol li a{font-size:96.15%;line-height:1.28;}
+.summaryfeed ol li.selected a{color:#333399;  font-weight:bold;  text-decoration:underline; }
+.summaryfeed .date{float:left;margin:0 .462em .231em 0;padding-right:.462em;border-right:1px solid #d1d3d5;text-align:center;color:#616365;}
+.summaryfeed .date span{display:block;}
+.summaryfeed .date .day{font-size:123.1%;letter-spacing:-1px;}
+.summaryfeed .date .month{font-size:84.6%;}
+.detailfeed ol{margin:0;}
+.detailfeed ol li{margin:0 .8em 0 0;padding:.4em;display:block;float:left;height:10.72em;width:15.28em;list-style:none;border:1px solid #d1d3d5;overflow:hidden;}
+.detailfeed ol li:hover,.detailfeed ol li.over{background:#faebc3 url(../image/hover_bk.png) no-repeat bottom right;}
+.detailfeed ol li.first{margin-left:0;}
+.detailfeed ol li.last{margin-right:0;}
+.detailfeed ol li a{text-decoration:none;}
+.detailfeed ol li.selected a{color:#FF0000;  font-weight:bold;  text-decoration:underline; }
+.detailfeed ol li a .date,.detailfeed ol li a .title,.detailfeed ol li a .description{display:block;}
+.detailfeed ol li a .title{color:#004b84;padding-top:2px;font-size:12;}
+.detailfeed ol li a .date{color:#616365;font-size:8;line-height:1.6;}
+.detailfeed ol li a .description{font-size:10;line-height:1.2;color:#313335;}
+.tickerfeed{height:24px;margin:8px 0;padding-top:8px;border:1px solid #d1d3d5;}
+.tickerfeed h3{float:left;width:8.43em;margin-bottom:0;padding:0 0 .313em .626em;font-size:123.1%;line-height:1;}
+.tickerfeed h3 a{float:left;}
+.tickerfeed ol{float:right;width:64.4em;height:15px;margin-bottom:0;padding:1px 0 .385em;overflow:hidden;}
+.tickerfeed ol li{margin:0;padding:0 0 .385em .923em;list-style:url(../image/sml_arro.png) inside disc;font-size:100%;line-height:1.231;}
+
+
+#copy p.pullquote,#copy2 p.pullquote{float:left;margin:0 1.28em 1.28em 0;padding:1.28em 0 0 1.28em;min-height:45px;width:30%;min-width:50px;font-style:italic;color:#616365;background:url(../image/pullquot.png) no-repeat left top;}
+#copy,#copy2,#copy p,#copy2 p,#copy p.pullquote,#copy2 p.pullquote{float:none!important;width:auto!important;margin:0!important;padding:0!important;}
+#copy p.pullquote,#copy2 p.pullquote{font-style:normal!important;background:none!important;}
+
+
+#queensfooter ol#breadcrumbs{display:none;}
+#onCAMPUS{clear:both;float:right;margin:.615em .769em .538em 0;padding:0;width:23.846em;height:144px;}
+#acCalendarList{clear:both;float:left;margin:.615em .769em .538em .385em;padding:0;width:23.846em;}
+.summaryfeed .date{display:none;}
+#NEWSwire{float:left;margin:.615em .385em .538em .385em;padding:0;width:48.462em; }
+@media print{#onCAMPUS,#onCAMPUS h2 a,#NEWSwire h2 a,#onCAMPUS ol,#onCAMPUS ol li,#onCAMPUS ol li.first,#onCAMPUS ol li.last,#onCAMPUS .date,#NEWSwire,#NEWSwire ol li,#NEWSwire ol li a .title,#acCalendarList,#acCalendarList h2 a,#acCalendarList ol li{float:none!important;width:auto!important;height:auto!important;margin:0!important;padding:0!important;}
+
+
+#onCAMPUS img{float:right;margin:0;border:thin; }
+#onCAMPUS ol,#onCAMPUS ol li,#onCAMPUS .date{height:auto!important;border:none!important;text-align:left!important; }
+#NEWSwire ol li:hover,#NEWSwire ol li.over{background:none!important; }
+#onCAMPUS .date span,#NEWSwire ol li a .date,#NEWSwire ol li a .title,#NEWSwire ol li a .description{ display:inline!important; }
+#NEWSwire ol li{height:auto!important;border:none!important;text-align:left!important; width:20.0em;}
+
+
+#acList{clear:both;float:left;margin:.615em .769em .538em .385em;padding:0;width:23.846em; }
+
+
+
+
+
+
+
+
+/*--------------------------------------------*/
+
+
