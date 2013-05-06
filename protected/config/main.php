@@ -66,7 +66,7 @@ return array(
 					'tablePrefix' => 'tbl_',
 		),*/
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=_metro_uni_erp_solution_db_',
+			'connectionString' => 'mysql:host=localhost;dbname=db_muensolv1p8',
 			'emulatePrepare' => true,
 			'username' => 'root',
 			'password' => '',
